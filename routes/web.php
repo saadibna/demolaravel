@@ -17,9 +17,3 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/bangladesh', function () {
-    return view('ban');
-});
-Route::get('/about', function () {
-    return view('about');
-});
